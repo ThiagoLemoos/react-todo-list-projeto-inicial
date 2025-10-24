@@ -1,0 +1,13 @@
+.button {
+    background-color: #877EED;
+    width: 125px;
+    height: 48px;
+    border: none;
+    border-radius: 24px;
+    margin-top: 10px;
+    color: #FFF;
+}
+
+.button-div {
+    text-align: center;
+}
