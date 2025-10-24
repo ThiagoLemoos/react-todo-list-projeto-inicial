@@ -1,13 +1,19 @@
-.button {
+.btn {
     background-color: #877EED;
-    width: 125px;
-    height: 48px;
-    border: none;
     border-radius: 24px;
-    margin-top: 10px;
+    border: none;
+    padding: 16px 12px;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 500;
     color: #FFF;
+    cursor: pointer;
 }
 
+.btn:hover {
+    background-color: #544ACB;
+}
+    
 .button-div {
     text-align: center;
 }

@@ -1,9 +1,9 @@
 import './button.style.css'
 
-export function Button ({ children }) {
+export function Button ({ children, ...rest }) {
     return (
         <div className='button-div'>
-            <button className='button'>{children}</button>
+            <button className='btn' {...rest} >{children}</button>
         </div>
     )
 }
